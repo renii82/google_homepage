@@ -69,15 +69,21 @@ a:hover {
 }
 
 #apps {
-    background-image: url(apps.png) ;
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png') ;
+    background-position: -132px -38px;
     margin: 0 10px 0 7px;
     display:inline-block;
-    width:10px;
-    height: 10px;
+    width:20px;
+    height: 20px;
 }
 
 #left-nav {
     padding: 5px;
+}
+
+#right-nav {
+    display: flex;
+    align-items: center;
 }
 
 #footer-bottom {
